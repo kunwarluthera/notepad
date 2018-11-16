@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C1BAFCC219F0A3000D05569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1BAFCB219F0A3000D05569 /* AppDelegate.swift */; };
-		9C1BAFCE219F0A3000D05569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1BAFCD219F0A3000D05569 /* ViewController.swift */; };
+		9C1BAFCE219F0A3000D05569 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1BAFCD219F0A3000D05569 /* ToDoListViewController.swift */; };
 		9C1BAFD1219F0A3000D05569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1BAFCF219F0A3000D05569 /* Main.storyboard */; };
 		9C1BAFD4219F0A3000D05569 /* notepad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C1BAFD2219F0A3000D05569 /* notepad.xcdatamodeld */; };
 		9C1BAFD6219F0A3300D05569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1BAFD5219F0A3300D05569 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		9C1BAFC8219F0A3000D05569 /* notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1BAFCB219F0A3000D05569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C1BAFCD219F0A3000D05569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C1BAFCD219F0A3000D05569 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		9C1BAFD0219F0A3000D05569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C1BAFD3219F0A3000D05569 /* notepad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = notepad.xcdatamodel; sourceTree = "<group>"; };
 		9C1BAFD5219F0A3300D05569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				9C1BAFCB219F0A3000D05569 /* AppDelegate.swift */,
-				9C1BAFCD219F0A3000D05569 /* ViewController.swift */,
+				9C1BAFCD219F0A3000D05569 /* ToDoListViewController.swift */,
 				9C1BAFCF219F0A3000D05569 /* Main.storyboard */,
 				9C1BAFD5219F0A3300D05569 /* Assets.xcassets */,
 				9C1BAFD7219F0A3300D05569 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C1BAFCE219F0A3000D05569 /* ViewController.swift in Sources */,
+				9C1BAFCE219F0A3000D05569 /* ToDoListViewController.swift in Sources */,
 				9C1BAFCC219F0A3000D05569 /* AppDelegate.swift in Sources */,
 				9C1BAFD4219F0A3000D05569 /* notepad.xcdatamodeld in Sources */,
 			);
