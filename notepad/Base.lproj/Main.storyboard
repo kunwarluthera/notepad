@@ -33,7 +33,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Notepad" id="Pv1-zC-Wlr">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Ytk-A7-h4s">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Ytk-A7-h4s">
                             <connections>
                                 <action selector="addButtonPressed:" destination="R0B-6d-hnM" id="8y1-To-jFT"/>
                             </connections>
