@@ -12,9 +12,14 @@ class ToDoListViewController: UITableViewController {
     
     var itemArray = ["KunwarNotepad","AnuNotepad","MishuNotepad"]
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
+    let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let items = defaults.array(forKey: "TodoListArray") as? [String] {
+            itemArray = items
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -60,6 +65,7 @@ class ToDoListViewController: UITableViewController {
         
         let action = UIAlertAction(title: "Add Item", style: .default) {(action) in
             self.itemArray.append(alertTextFieldData.text!)
+            self.defaults.set(self.itemArray, forKey: "TodoListArray")
             print(alertTextFieldData.text!)
             print("SUCCESS AFTER ADD ITEM BUTTON CLICKED")
             self.tableView.reloadData()
